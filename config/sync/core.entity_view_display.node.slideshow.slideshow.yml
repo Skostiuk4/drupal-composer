@@ -1,0 +1,29 @@
+uuid: 38d61b6b-b1ad-4f2d-99ab-e5df3cc59bfa
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.slideshow
+    - field.field.node.slideshow.body
+    - node.type.slideshow
+  module:
+    - text
+    - user
+id: node.slideshow.slideshow
+targetEntityType: node
+bundle: slideshow
+mode: slideshow
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

@@ -1,0 +1,10 @@
+uuid: 1d61b2dc-77ae-420e-9528-757faba14a5b
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+id: block_content.ba
+label: 'Banner test'
+targetEntityType: block_content
+cache: true

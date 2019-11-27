@@ -1,0 +1,35 @@
+uuid: cc067586-5f98-4b59-9ee9-78cb7177acf4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_terms2
+    - taxonomy.vocabulary.categories2
+  content:
+    - 'taxonomy_term:categories:321f0662-53d9-4279-a16c-00c0ef3907b3'
+    - 'taxonomy_term:categories:7a0dfcb7-7ac6-4cce-8145-468c3b5787c6'
+id: taxonomy_term.categories2.field_terms2
+field_name: field_terms2
+entity_type: taxonomy_term
+bundle: categories2
+label: terms2
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    target_uuid: 321f0662-53d9-4279-a16c-00c0ef3907b3
+  -
+    target_uuid: 7a0dfcb7-7ac6-4cce-8145-468c3b5787c6
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      categories2: categories2
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

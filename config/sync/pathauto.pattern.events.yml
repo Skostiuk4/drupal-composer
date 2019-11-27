@@ -1,0 +1,23 @@
+uuid: b588e9d9-aefa-4486-8d46-0cb1a3ca9833
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - taxonomy
+id: events
+label: events
+type: 'canonical_entities:taxonomy_term'
+pattern: 'event/[term:name]'
+selection_criteria:
+  986319e7-eb35-403b-80cd-768ac82b3c32:
+    id: 'entity_bundle:taxonomy_term'
+    bundles:
+      categories: categories
+    negate: false
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    uuid: 986319e7-eb35-403b-80cd-768ac82b3c32
+selection_logic: and
+weight: -5
+relationships: {  }

@@ -1,0 +1,10 @@
+uuid: 7f43b6c6-5d63-4197-92f7-b80e40c279e8
+langcode: en
+status: true
+dependencies:
+  module:
+    - contact
+id: contact_message.banner
+label: Banner
+targetEntityType: contact_message
+cache: true

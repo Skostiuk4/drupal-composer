@@ -1,0 +1,47 @@
+uuid: cca0e972-239a-443d-9cb3-2a381c1a0b3f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.categories2.field_terms2
+    - taxonomy.vocabulary.categories2
+  module:
+    - path
+    - text
+id: taxonomy_term.categories2.default
+targetEntityType: taxonomy_term
+bundle: categories2
+mode: default
+content:
+  description:
+    type: text_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_terms2:
+    weight: 31
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  name:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

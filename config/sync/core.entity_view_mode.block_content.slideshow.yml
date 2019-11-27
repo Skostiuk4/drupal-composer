@@ -1,0 +1,10 @@
+uuid: 09f8d8ad-f210-422e-af09-760137dfbe15
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+id: block_content.slideshow
+label: Slideshow
+targetEntityType: block_content
+cache: true

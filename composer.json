@@ -9,6 +9,14 @@
             "role": ""
         }
     ],
+       "post-install-cmd": [
+        "@drupal-scaffold",
+        "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
+    ],
+    "post-update-cmd": [
+        "@drupal-scaffold",
+        "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
+    ],
     "repositories": [
         {
             "type": "composer",
@@ -24,7 +32,7 @@
         "drupal/console": "^1.0.2",
         "drupal/core": "^8.7.0",
         "drupal/pathauto": "^1.5",
-        "drush/drush": "^9.0.0",
+        "drush/drush": "^10.0",
         "vlucas/phpdotenv": "^2.4",
         "webflo/drupal-finder": "^1.0.0",
         "webmozart/path-util": "^2.3",

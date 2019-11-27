@@ -1,0 +1,30 @@
+uuid: bd96ba06-c3ff-422c-b17d-15d0376dc7c0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.categories2.field_terms2
+    - taxonomy.vocabulary.categories2
+  module:
+    - text
+id: taxonomy_term.categories2.default
+targetEntityType: taxonomy_term
+bundle: categories2
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_terms2:
+    weight: 1
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+hidden: {  }
