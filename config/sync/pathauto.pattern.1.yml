@@ -1,0 +1,22 @@
+uuid: b4ff3756-de66-4a04-a0a7-5bf8179fb1a3
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: '1'
+label: '1'
+type: 'canonical_entities:node'
+pattern: 'events/[node:title]'
+selection_criteria:
+  49b5b061-8df6-43b4-938c-da2c19c2da88:
+    id: node_type
+    bundles:
+      drush_command: drush_command
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 49b5b061-8df6-43b4-938c-da2c19c2da88
+selection_logic: and
+weight: -5
+relationships: {  }

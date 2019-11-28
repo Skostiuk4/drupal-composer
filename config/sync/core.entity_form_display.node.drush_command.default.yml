@@ -3,6 +3,8 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.node.drush_command.field_alias_command
+    - field.field.node.drush_command.field_command_to_be_involved
     - field.field.node.drush_command.field_descriptions
     - field.field.node.drush_command.field_titles
     - node.type.drush_command
@@ -19,6 +21,22 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_alias_command:
+    weight: 126
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_command_to_be_involved:
+    weight: 125
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
   field_descriptions:
     weight: 122
     settings:

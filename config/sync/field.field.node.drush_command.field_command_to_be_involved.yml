@@ -1,0 +1,21 @@
+uuid: 7207674c-fd9e-4c9f-bf38-f5b9eac3e15d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_command_to_be_involved
+    - node.type.drush_command
+id: node.drush_command.field_command_to_be_involved
+field_name: field_command_to_be_involved
+entity_type: node
+bundle: drush_command
+label: 'Command to be involved'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: $
+default_value_callback: ''
+settings: {  }
+field_type: string_long

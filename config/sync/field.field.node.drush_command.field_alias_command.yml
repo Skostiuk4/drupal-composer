@@ -1,19 +1,21 @@
-uuid: 4a967530-8857-4654-933a-f3a5ea61f45f
+uuid: e4afd457-20c7-4d8d-a54e-40f96a6b1b62
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_descriptions
+    - field.storage.node.field_alias_command
     - node.type.drush_command
-id: node.drush_command.field_descriptions
-field_name: field_descriptions
+id: node.drush_command.field_alias_command
+field_name: field_alias_command
 entity_type: node
 bundle: drush_command
-label: Description
+label: 'Alias command'
 description: ''
 required: false
 translatable: false
-default_value: {  }
+default_value:
+  -
+    value: $
 default_value_callback: ''
 settings: {  }
 field_type: string_long

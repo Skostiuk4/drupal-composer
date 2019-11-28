@@ -3,6 +3,8 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.node.drush_command.field_alias_command
+    - field.field.node.drush_command.field_command_to_be_involved
     - field.field.node.drush_command.field_descriptions
     - field.field.node.drush_command.field_titles
     - node.type.drush_command
@@ -13,6 +15,20 @@ targetEntityType: node
 bundle: drush_command
 mode: default
 content:
+  field_alias_command:
+    weight: 106
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_command_to_be_involved:
+    weight: 105
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
   field_descriptions:
     weight: 102
     label: above
