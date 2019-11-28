@@ -6,7 +6,6 @@ dependencies:
     - field.field.node.drush_command.field_alias_command
     - field.field.node.drush_command.field_command_to_be_involved
     - field.field.node.drush_command.field_descriptions
-    - field.field.node.drush_command.field_titles
     - node.type.drush_command
   module:
     - user
@@ -31,13 +30,6 @@ content:
     region: content
   field_descriptions:
     weight: 102
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: basic_string
-    region: content
-  field_titles:
-    weight: 101
     label: above
     settings: {  }
     third_party_settings: {  }
