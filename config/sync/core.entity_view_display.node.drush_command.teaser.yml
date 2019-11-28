@@ -1,0 +1,20 @@
+uuid: 0b59a51e-8932-418d-b658-df0630c05a74
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.drush_command
+  module:
+    - user
+id: node.drush_command.teaser
+targetEntityType: node
+bundle: drush_command
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

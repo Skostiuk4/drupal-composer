@@ -1,0 +1,35 @@
+uuid: d9641ddb-43ef-4927-ba9f-fbb1ea188405
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.drush_command.field_descriptions
+    - field.field.node.drush_command.field_titles
+    - node.type.drush_command
+  module:
+    - user
+id: node.drush_command.default
+targetEntityType: node
+bundle: drush_command
+mode: default
+content:
+  field_descriptions:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_titles:
+    weight: 101
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

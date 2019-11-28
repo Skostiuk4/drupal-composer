@@ -1,0 +1,21 @@
+uuid: 4a967530-8857-4654-933a-f3a5ea61f45f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_descriptions
+    - node.type.drush_command
+id: node.drush_command.field_descriptions
+field_name: field_descriptions
+entity_type: node
+bundle: drush_command
+label: Description
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: $
+default_value_callback: ''
+settings: {  }
+field_type: string_long
