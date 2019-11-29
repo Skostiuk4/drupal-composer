@@ -1,15 +1,15 @@
-uuid: 4bb50ce0-5beb-46b7-91fc-a5a05924edc5
+uuid: 8dace00a-13c2-4476-889f-95be7351fba6
 langcode: en
 status: true
 dependencies:
   module:
-    - node
-id: node.field_lineage_2
-field_name: field_lineage_2
-entity_type: node
-type: entity_reference
+    - paragraphs
+id: paragraph.field_body
+field_name: field_body
+entity_type: paragraph
+type: string_long
 settings:
-  target_type: node
+  case_sensitive: false
 module: core
 locked: false
 cardinality: 1

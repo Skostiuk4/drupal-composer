@@ -32,6 +32,8 @@
         "drupal/bootstrap": "^3.21",
         "drupal/console": "^1.0.2",
         "drupal/core": "^8.7.0",
+        "drupal/entity_reference_revisions": "^1.7",
+        "drupal/paragraphs": "^1.10",
         "drupal/pathauto": "^1.5",
         "drush/drush": "^10.0",
         "vlucas/phpdotenv": "^2.4",

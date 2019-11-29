@@ -4,9 +4,10 @@ status: true
 dependencies:
   config:
     - field.field.node.page.body
-    - field.field.node.page.field_lineage_2
+    - field.field.node.page.field_paragraph
     - node.type.page
   module:
+    - entity_reference_revisions
     - text
     - user
 _core:
@@ -23,15 +24,14 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_lineage_2:
-    weight: 102
-    label: above
+  field_paragraph:
+    type: entity_reference_revisions_entity_view
+    weight: 103
+    label: hidden
     settings:
-      link: true
+      view_mode: default
+      link: ''
     third_party_settings: {  }
-    type: entity_reference_label
     region: content
-  links:
-    weight: 101
-    region: content
-hidden: {  }
+hidden:
+  links: true
