@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.content.field_body
+    - field.field.paragraph.content.field_media_image
     - field.field.paragraph.content.field_title
     - paragraphs.paragraphs_type.content
 id: paragraph.content.default
@@ -17,6 +18,15 @@ content:
     settings: {  }
     third_party_settings: {  }
     type: basic_string
+    region: content
+  field_media_image:
+    type: entity_reference_entity_view
+    weight: 2
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
     region: content
   field_title:
     weight: 0
