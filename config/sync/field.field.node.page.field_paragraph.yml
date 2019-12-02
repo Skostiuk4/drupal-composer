@@ -5,6 +5,8 @@ dependencies:
   config:
     - field.storage.node.field_paragraph
     - node.type.page
+    - paragraphs.paragraphs_type.images
+    - paragraphs.paragraphs_type.media_image
   module:
     - entity_reference_revisions
 id: node.page.field_paragraph
@@ -19,5 +21,19 @@ default_value: {  }
 default_value_callback: ''
 settings:
   handler: 'default:paragraph'
-  handler_settings: {  }
+  handler_settings:
+    negate: 0
+    target_bundles:
+      images: images
+      media_image: media_image
+    target_bundles_drag_drop:
+      content:
+        weight: 4
+        enabled: false
+      images:
+        enabled: true
+        weight: 5
+      media_image:
+        enabled: true
+        weight: 6
 field_type: entity_reference_revisions

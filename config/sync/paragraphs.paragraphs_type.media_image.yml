@@ -1,0 +1,9 @@
+uuid: 82d23030-0591-4d8b-ae8a-ba782669e79a
+langcode: en
+status: true
+dependencies: {  }
+id: media_image
+label: 'Media image'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }
