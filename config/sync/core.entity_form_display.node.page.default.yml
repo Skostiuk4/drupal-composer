@@ -3,12 +3,10 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.page.body
     - field.field.node.page.field_paragraph
     - node.type.page
   module:
     - paragraphs
-    - text
 _core:
   default_config_hash: sb0qCkzU_8mNq29NehYAU8jCBXWPLeX0UN8sYFVGVcw
 id: node.page.default
@@ -16,15 +14,6 @@ targetEntityType: node
 bundle: page
 mode: default
 content:
-  body:
-    type: text_textarea_with_summary
-    weight: 31
-    region: content
-    settings:
-      rows: 9
-      summary_rows: 3
-      placeholder: ''
-    third_party_settings: {  }
   field_paragraph:
     type: entity_reference_paragraphs
     weight: 122
@@ -37,18 +26,11 @@ content:
       default_paragraph_type: ''
     third_party_settings: {  }
     region: content
-  title:
-    type: string_textfield
-    weight: -5
-    region: content
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
 hidden:
   created: true
   path: true
   promote: true
   status: true
   sticky: true
+  title: true
   uid: true

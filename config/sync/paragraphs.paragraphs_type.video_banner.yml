@@ -1,0 +1,9 @@
+uuid: ca757c6e-f57e-4ae2-9923-72d86d2a6342
+langcode: en
+status: true
+dependencies: {  }
+id: video_banner
+label: 'Video banner'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }
