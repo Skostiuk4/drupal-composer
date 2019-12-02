@@ -4,7 +4,7 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.banner
-    - field.field.node.article.field_media_image
+    - field.field.node.article.field_v
     - node.type.article
   module:
     - user
@@ -21,4 +21,4 @@ content:
     settings: {  }
     third_party_settings: {  }
 hidden:
-  field_media_image: true
+  field_v: true

@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.page.field_paragraph
+    - field.field.node.page.field_video
     - node.type.page
   module:
     - entity_reference_revisions
@@ -15,10 +15,10 @@ targetEntityType: node
 bundle: page
 mode: default
 content:
-  field_paragraph:
+  field_video:
     type: entity_reference_revisions_entity_view
-    weight: 103
-    label: hidden
+    weight: 104
+    label: above
     settings:
       view_mode: default
       link: ''

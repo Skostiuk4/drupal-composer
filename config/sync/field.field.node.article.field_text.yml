@@ -1,14 +1,14 @@
-uuid: 88b62570-9c95-480b-a23d-70bd253c15a3
+uuid: 0d456142-162c-4144-a651-34bea3b3b4e6
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_text
-    - paragraphs.paragraphs_type.video_banner
-id: paragraph.video_banner.field_text
+    - field.storage.node.field_text
+    - node.type.article
+id: node.article.field_text
 field_name: field_text
-entity_type: paragraph
-bundle: video_banner
+entity_type: node
+bundle: article
 label: Text
 description: ''
 required: false

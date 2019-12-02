@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.page.field_paragraph
+    - field.field.node.page.field_video
     - node.type.page
   module:
     - paragraphs
@@ -14,9 +14,9 @@ targetEntityType: node
 bundle: page
 mode: default
 content:
-  field_paragraph:
+  field_video:
     type: entity_reference_paragraphs
-    weight: 122
+    weight: 123
     settings:
       title: Paragraph
       title_plural: Paragraphs

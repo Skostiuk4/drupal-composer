@@ -1,19 +1,18 @@
-uuid: 2df4287d-3e75-4575-908e-8c6f59854784
+uuid: 80d100a9-7197-4459-a42f-fce8ff85df14
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_paragraph
+    - field.storage.node.field_video
     - node.type.page
-    - paragraphs.paragraphs_type.images
-    - paragraphs.paragraphs_type.media_image
+    - paragraphs.paragraphs_type.video_banner
   module:
     - entity_reference_revisions
-id: node.page.field_paragraph
-field_name: field_paragraph
+id: node.page.field_video
+field_name: field_video
 entity_type: node
 bundle: page
-label: Paragraph
+label: 'Video banner'
 description: ''
 required: false
 translatable: false
@@ -24,16 +23,18 @@ settings:
   handler_settings:
     negate: 0
     target_bundles:
-      images: images
-      media_image: media_image
+      video_banner: video_banner
     target_bundles_drag_drop:
       content:
-        weight: 4
+        weight: 5
         enabled: false
       images:
-        enabled: true
-        weight: 5
-      media_image:
-        enabled: true
         weight: 6
+        enabled: false
+      media_image:
+        weight: 7
+        enabled: false
+      video_banner:
+        enabled: true
+        weight: 8
 field_type: entity_reference_revisions

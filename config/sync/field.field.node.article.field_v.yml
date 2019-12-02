@@ -1,18 +1,16 @@
-uuid: 71876424-b5ea-4b62-a3f9-9a34fbad09ed
+uuid: 59601bd8-e86f-4851-a46b-cb2d04febff8
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_media_image
-    - media.type.audio
-    - media.type.image
-    - media.type.video
+    - field.storage.node.field_v
+    - media.type.remote_video
     - node.type.article
-id: node.article.field_media_image
-field_name: field_media_image
+id: node.article.field_v
+field_name: field_v
 entity_type: node
 bundle: article
-label: 'Media image'
+label: 'Video banner'
 description: ''
 required: false
 translatable: false
@@ -22,11 +20,9 @@ settings:
   handler: 'default:media'
   handler_settings:
     target_bundles:
-      audio: audio
-      image: image
-      video: video
+      remote_video: remote_video
     sort:
       field: _none
     auto_create: false
-    auto_create_bundle: image
+    auto_create_bundle: ''
 field_type: entity_reference
