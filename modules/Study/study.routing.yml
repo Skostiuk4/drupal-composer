@@ -1,0 +1,4 @@
+study:
+  path: /study
+  defaults:
+    _controller: Drupal\
