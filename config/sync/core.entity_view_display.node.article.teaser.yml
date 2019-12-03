@@ -4,7 +4,8 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - field.field.node.article.field_v
+    - field.field.node.article.field_paragraph
+    - field.field.node.article.field_text
     - node.type.article
   module:
     - user
@@ -19,4 +20,5 @@ content:
     weight: 100
     region: content
 hidden:
-  field_v: true
+  field_paragraph: true
+  field_text: true

@@ -3,10 +3,11 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.node.article.field_paragraph
     - field.field.node.article.field_text
-    - field.field.node.article.field_v
     - node.type.article
   module:
+    - entity_reference_revisions
     - user
 _core:
   default_config_hash: ChmU3AVqDKU32A_fyChG0W9dTRKmVBR58B6OClCLvZI
@@ -15,21 +16,21 @@ targetEntityType: node
 bundle: article
 mode: default
 content:
+  field_paragraph:
+    type: entity_reference_revisions_entity_view
+    weight: 118
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
   field_text:
     weight: 117
     label: above
     settings: {  }
     third_party_settings: {  }
     type: basic_string
-    region: content
-  field_v:
-    type: entity_reference_entity_view
-    weight: 116
-    label: above
-    settings:
-      view_mode: default
-      link: false
-    third_party_settings: {  }
     region: content
   links:
     weight: 100

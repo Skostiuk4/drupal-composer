@@ -3,11 +3,11 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.node.article.field_paragraph
     - field.field.node.article.field_text
-    - field.field.node.article.field_v
     - node.type.article
   module:
-    - media_library
+    - paragraphs
     - path
 _core:
   default_config_hash: vPb_yvhA-xuNoV_yOmOwYxGuHNRIH1CoMK2qi7BSga0
@@ -22,6 +22,18 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_paragraph:
+    type: entity_reference_paragraphs
+    weight: 128
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
   field_text:
     weight: 127
     settings:
@@ -29,13 +41,6 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: string_textarea
-    region: content
-  field_v:
-    type: media_library_widget
-    weight: 126
-    settings:
-      media_types: {  }
-    third_party_settings: {  }
     region: content
   path:
     type: path

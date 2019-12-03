@@ -4,7 +4,8 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.slideshow
-    - field.field.node.article.field_v
+    - field.field.node.article.field_paragraph
+    - field.field.node.article.field_text
     - node.type.article
   module:
     - user
@@ -21,4 +22,5 @@ content:
     settings: {  }
     third_party_settings: {  }
 hidden:
-  field_v: true
+  field_paragraph: true
+  field_text: true
