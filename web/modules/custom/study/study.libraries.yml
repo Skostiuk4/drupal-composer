@@ -1,7 +1,10 @@
-assets:
+study:
+  version: 1.x
+  css:
+    theme:
+        assets/css/study.css: {}
 
   js:
-      study.js: {}
-
-  css:
-      Study.css: {}
+      assets/js/study.js: {}
+  dependencies:
+    - core/jquery

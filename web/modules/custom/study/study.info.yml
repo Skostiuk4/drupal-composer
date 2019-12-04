@@ -4,4 +4,4 @@ description: Say study
 package: Custom
 core: 8.x
 libraries:
-  - study/styling-experiment
+  - study/study.libraries.yml
