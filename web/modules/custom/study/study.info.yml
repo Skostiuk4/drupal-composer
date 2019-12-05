@@ -4,7 +4,7 @@ description: Say study
 package: Custom
 core: 8.x
 libraries:
-- 'study/base_css'
+- 'study/study'
 - 'study/script'
 
 
