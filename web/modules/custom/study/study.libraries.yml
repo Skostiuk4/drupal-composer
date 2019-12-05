@@ -1,12 +1,13 @@
 study:
   version: 1.x
   css:
-   theme:
-   assets/css/study.css: {}
-  script:
-   js:
-   assets/js/study.js: {}
+    theme:
+      assets/css/study.css: {}
+
+  js:
+    assets/js/study.js: {}
+
   dependencies:
-   - core/drupal
-   - core/jquery
+    - core/jquery
+
 
