@@ -4,4 +4,9 @@ description: Say study
 package: Custom
 core: 8.x
 libraries:
-  - study/study.libraries.yml
+- 'study/base_css'
+- 'study/script'
+
+
+
+

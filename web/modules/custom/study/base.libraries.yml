@@ -1,0 +1,12 @@
+base_css:
+  version: 1.x
+  css:
+   theme:
+   assets/css/study.css: {}
+  script:
+   js:
+   assets/js/study.js: {}
+  dependencies:
+   - core/drupal
+   - core/jquery
+
