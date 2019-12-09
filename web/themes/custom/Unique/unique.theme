@@ -1,4 +1,4 @@
 <?php
-function unique_page_attachments(array &$page) {
-  $page['#attached']['library'][] = 'unique/unique';
+function unique_preprocess_maintenance_page(&$variables) {
+  $variables['#attached']['library'][] = 'unique/unique-style';
 }

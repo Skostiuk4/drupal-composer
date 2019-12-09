@@ -1,0 +1,11 @@
+html {
+  height: 100%;
+  background: #0c97ed;
+}
+body {
+  min-height: 100%;
+  word-wrap: break-word;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 87.5%;
+  line-height: 1.5;
+  background: #0c97ed;

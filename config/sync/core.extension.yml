@@ -41,7 +41,6 @@ module:
   search: 0
   shortcut: 0
   study: 0
-  studys: 0
   system: 0
   taxonomy: 0
   text: 0
@@ -64,6 +63,7 @@ theme:
   bootstrap: 0
   stark: 0
   Unique: 0
+  drupal8_parallax_theme: 0
 profile: standard
 _core:
   default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc

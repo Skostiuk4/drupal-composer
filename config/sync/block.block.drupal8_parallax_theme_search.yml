@@ -1,0 +1,22 @@
+uuid: d6d8c82d-2171-4ba9-a9fd-1ef5fff89d96
+langcode: en
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - drupal8_parallax_theme
+_core:
+  default_config_hash: 3dKXHsZSniz1i1DLj7JOeK2-sukfHGCdG2Sgce_zZLE
+id: drupal8_parallax_theme_search
+theme: drupal8_parallax_theme
+region: header
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }

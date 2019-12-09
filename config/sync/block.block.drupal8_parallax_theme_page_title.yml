@@ -1,0 +1,20 @@
+uuid: 3d1f86c4-b09d-4cb4-a2bd-7c35a171d711
+langcode: en
+status: true
+dependencies:
+  theme:
+    - drupal8_parallax_theme
+_core:
+  default_config_hash: 5M0xZRyIoJdR89B-0-1DQzNgi4Godwv9sMBDObaMh5U
+id: drupal8_parallax_theme_page_title
+theme: drupal8_parallax_theme
+region: page_title
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

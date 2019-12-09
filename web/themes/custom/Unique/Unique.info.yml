@@ -1,11 +1,13 @@
 name: Unique
 type: theme
-description: 'Unique Classy Sub-theme'
+description: Unique Classy Sub-theme
 package: Custom
 core: 8.x
 base theme: classy
 libraries:
-  - 'unique/unique_css'
+  - unique/unique-style
+
+
 
 
 

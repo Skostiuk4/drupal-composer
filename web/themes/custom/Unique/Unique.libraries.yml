@@ -1,6 +1,10 @@
-Unique:
-  version: 1.x
+unique-style:
   css:
     theme:
-      assets/css/unique.css: {}
+      css/style.css: {}
+      css/materialize.css: {}
 
+  js:
+    js/script.js: {}
+  dependencies:
+    - core/jquery
