@@ -4,5 +4,8 @@ description: 'Unique Classy Sub-theme'
 package: Custom
 core: 8.x
 base theme: classy
+libraries:
+  - 'unique/unique_css'
+
 
 

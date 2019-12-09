@@ -1,0 +1,4 @@
+<?php
+function unique_page_attachments(array &$page) {
+  $page['#attached']['library'][] = 'unique/unique';
+}

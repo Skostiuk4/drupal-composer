@@ -1,0 +1,6 @@
+Unique:
+  version: 1.x
+  css:
+    theme:
+      assets/css/unique.css: {}
+
