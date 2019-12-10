@@ -1,4 +1,0 @@
-<?php
-function unique_preprocess_maintenance_page(&$variables) {
-  $variables['#attached']['library'][] = 'unique/unique-style';
-}

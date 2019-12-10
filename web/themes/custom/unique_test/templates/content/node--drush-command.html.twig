@@ -82,7 +82,7 @@
     </h2>
   {% endif %}
   {{ title_suffix }}
-  <p>It works!</p>
+
 
   {% if display_submitted %}
     <footer>
@@ -99,3 +99,5 @@
   </div>
 
 </article>
+
+<?php print drupal_render($form['submitted']['name']);`

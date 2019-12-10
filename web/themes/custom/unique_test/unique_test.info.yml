@@ -1,13 +1,10 @@
-name: Unique
+name: unique_test
 type: theme
 description: Unique Classy Sub-theme
 package: Custom
 core: 8.x
 base theme: classy
+version: '8.x-1.8'
+
 libraries:
-  - unique/unique-style
-
-
-
-
-
+  - unique_test/unique

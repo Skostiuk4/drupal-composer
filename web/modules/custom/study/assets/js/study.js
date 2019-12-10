@@ -4,7 +4,7 @@
 
   Drupal.behaviors.study = {
     attach: function (context) {
-      alert('Study');
+      // alert('Study');
     }
   }
 

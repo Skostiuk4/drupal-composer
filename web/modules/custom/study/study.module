@@ -1,4 +1,5 @@
-<?php
-function study_page_attachments(array &$page) {
-  $page['#attached']['library'][] = 'study/study';
-}
+<?php\
+
+  function study_page_attachments(array &$page) {
+    $page['#attached']['library'][] = 'study/study';
+  }

@@ -1,8 +1,8 @@
-unique-style:
+unique:
+  version: 1.x
   css:
     theme:
       css/style.css: {}
-      css/materialize.css: {}
 
   js:
     js/script.js: {}
