@@ -1,17 +1,17 @@
-uuid: 78d9fda4-fb93-475b-ac25-7965ee792492
+uuid: 0deaf450-d3e2-465d-b95d-8211bcafde02
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - bartik
+    - unique_test
 _core:
-  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
-id: bartik_powered
-theme: bartik
-region: footer_fifth
-weight: 10
+  default_config_hash: iggZSiUKz4mYP1YPJ8SsUfFu79HIgOTt6IDy3Up59aM
+id: unique_test_powered
+theme: unique_test
+region: footer
+weight: -10
 provider: null
 plugin: system_powered_by_block
 settings:

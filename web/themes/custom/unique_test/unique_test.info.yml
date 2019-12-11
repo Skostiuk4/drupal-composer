@@ -4,7 +4,8 @@ description: Unique Classy Sub-theme
 package: Custom
 core: 8.x
 base theme: classy
-version: '8.x-1.8'
+version: '8.x'
 
 libraries:
-  - unique_test/unique
+  - unique_test/unique-styles-and-scripts
+

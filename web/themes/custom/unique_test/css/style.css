@@ -1,6 +1,6 @@
 html {
   height: 100%;
-  background: #E0E0D8;
+  background: #79BE00;
 }
 body {
   min-height: 100%;
@@ -8,6 +8,19 @@ body {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 87.5%;
   line-height: 1.5;
-  background: #E0E0D8;
+  background: #FFFFFF;
 }
-
+.form-item-field-descriptions-0-value {
+  float: left;
+}
+#edit-field-command-to-be-involved-wrapper {
+  float: right;
+}
+#edit-field-alias-command-wrapper {
+  float: right;
+  margin-top: 10%;
+  margin-right: -25%;
+}
+.region-sidebar-first {
+  margin-top: 10%;
+}

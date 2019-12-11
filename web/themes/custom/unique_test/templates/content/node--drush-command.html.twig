@@ -100,4 +100,12 @@
 
 </article>
 
-<?php print drupal_render($form['submitted']['name']);`
+<?php
+function phptemplate_preprocess_node(&$vars) {
+  $node = $vars['node'];
+  if (!$node->teaser) {
+
+
+
+
+

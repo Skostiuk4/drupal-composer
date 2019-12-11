@@ -1,15 +1,15 @@
-uuid: b939d696-49cb-4b62-88a2-2cfd2763b1c4
+uuid: 3f381a5e-6743-4451-bf85-2828f049f201
 langcode: en
 status: true
 dependencies:
   module:
     - help
   theme:
-    - bootstrap
+    - unique_test
 _core:
   default_config_hash: MhtNdV__HKRTab0ZPjkPNfYL4Ng4UPBucDLoC7Rg5Eo
-id: bootstrap_help
-theme: bootstrap
+id: unique_test_help
+theme: unique_test
 region: help
 weight: -30
 provider: null

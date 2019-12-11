@@ -1,4 +1,4 @@
-uuid: cfb34658-e4c7-4239-9b60-1abaab8b5078
+uuid: bac1ba84-5be0-473e-9c5a-04f9d2d3698c
 langcode: en
 status: true
 dependencies:
@@ -7,12 +7,12 @@ dependencies:
   module:
     - system
   theme:
-    - bartik
+    - unique_test
 _core:
-  default_config_hash: rH6PpAn7-RScha1rGkohGAYSSh_1OVeZzioJPzPw6O4
-id: bartik_tools
-theme: bartik
-region: sidebar_first
+  default_config_hash: SrPItPkAevw9hGX_v5AfsVyw6vkoog7ZVLSJYqwsBHc
+id: unique_test_tools
+theme: unique_test
+region: sidebar_second
 weight: 0
 provider: null
 plugin: 'system_menu_block:tools'
