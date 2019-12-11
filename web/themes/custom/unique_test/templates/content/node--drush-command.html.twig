@@ -95,7 +95,8 @@
   {% endif %}
 
   <div{{ content_attributes }}>
-    {{ content }}
+    <div class="left">{{ content.field_descriptions }}</div>
+    <div class="right">{{ content | without('field_descriptions') }}</div>
   </div>
 
 

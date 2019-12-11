@@ -8,7 +8,7 @@ body {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 87.5%;
   line-height: 1.5;
-  background: #FFFFFF;
+  background: #eee;
 }
 .form-item-field-descriptions-0-value {
   float: left;
@@ -23,4 +23,13 @@ body {
 }
 .region-sidebar-first {
   margin-top: 10%;
+}
+
+.right {
+  float: right;
+  margin-right: 47%;
+  margin-top: -2%;
+}
+.left {
+  margin-left: 16%;
 }

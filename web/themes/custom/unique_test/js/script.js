@@ -3,8 +3,8 @@
   "use strict";
 
   Drupal.behaviors.study = {
-    attach: function (context) {
-       alert('Unique theme');
+   // attach: function (context) {
+     //  alert('Unique theme');
     }
   }
 
