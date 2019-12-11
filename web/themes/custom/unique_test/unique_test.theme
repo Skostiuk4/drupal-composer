@@ -1,7 +1,7 @@
 <?php
 function unique_test_page_attachments(array &$attachments) {
   $theme = \Drupal::theme()->getActiveTheme()->getName();
-  if ($theme == 'seven') {
+  if ($theme == 'unique_test') {
     $attachments['#attached']['library'][] = 'unique_test/unique-styles-and-scripts';
   }
 }
