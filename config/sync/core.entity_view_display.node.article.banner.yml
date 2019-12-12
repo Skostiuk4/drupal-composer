@@ -5,7 +5,6 @@ dependencies:
   config:
     - core.entity_view_mode.node.banner
     - field.field.node.article.field_paragraph
-    - field.field.node.article.field_text
     - node.type.article
   module:
     - user
@@ -23,4 +22,3 @@ content:
     third_party_settings: {  }
 hidden:
   field_paragraph: true
-  field_text: true

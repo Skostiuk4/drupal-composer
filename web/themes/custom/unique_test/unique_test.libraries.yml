@@ -8,3 +8,4 @@ unique-styles-and-scripts:
     js/script.js: {}
   dependencies:
     - core/jquery
+
