@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.page.field_video
+    - field.field.node.page.field_base_block
     - node.type.page
   module:
     - paragraphs
@@ -14,9 +14,9 @@ targetEntityType: node
 bundle: page
 mode: default
 content:
-  field_video:
+  field_base_block:
     type: entity_reference_paragraphs
-    weight: 123
+    weight: 1
     settings:
       title: Paragraph
       title_plural: Paragraphs
@@ -26,11 +26,18 @@ content:
       default_paragraph_type: ''
     third_party_settings: {  }
     region: content
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
 hidden:
   created: true
   path: true
   promote: true
   status: true
   sticky: true
-  title: true
   uid: true

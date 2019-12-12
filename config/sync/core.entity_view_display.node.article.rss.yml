@@ -5,7 +5,6 @@ dependencies:
   config:
     - core.entity_view_mode.node.rss
     - field.field.node.article.field_paragraph
-    - field.field.node.article.field_text
     - node.type.article
   module:
     - user
@@ -21,4 +20,3 @@ content:
     region: content
 hidden:
   field_paragraph: true
-  field_text: true

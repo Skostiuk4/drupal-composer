@@ -5,7 +5,7 @@ dependencies:
   config:
     - field.storage.node.field_paragraph
     - node.type.article
-    - paragraphs.paragraphs_type.video_banner
+    - paragraphs.paragraphs_type.base_block
   module:
     - entity_reference_revisions
 id: node.article.field_paragraph
@@ -23,11 +23,14 @@ settings:
   handler_settings:
     negate: 0
     target_bundles:
-      video_banner: video_banner
+      base_block: base_block
     target_bundles_drag_drop:
       content:
         weight: 5
         enabled: false
+      base_block:
+        enabled: true
+        weight: 6
       images:
         weight: 6
         enabled: false
@@ -35,6 +38,6 @@ settings:
         weight: 7
         enabled: false
       video_banner:
-        enabled: true
         weight: 8
+        enabled: false
 field_type: entity_reference_revisions

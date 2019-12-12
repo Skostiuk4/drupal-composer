@@ -95,11 +95,10 @@
   {% endif %}
 </article>
 
-  <div{{ content_attributes }}>
-    <div class="left">{{ content.field_descriptions }}</div>
-    <div class="right">{{ content | without('field_descriptions') }}</div>
-    <div class="centr">{{ content.field_alias_command }}</div>
-  </div>
+<div{{ content_attributes }}>
+  <div class="lefts">{{ content.field_images }}</div>
+  <div class="rights">{{ content | without('field_images') }}</div>
+</div>
 
 
 
