@@ -3,7 +3,12 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.node.page.field_base_block_
+    - field.field.node.page.field_content
     - field.field.node.page.field_events_banner
+    - field.field.node.page.field_images_
+    - field.field.node.page.field_media_image_
+    - field.field.node.page.field_video_banner_
     - node.type.page
   module:
     - paragraphs
@@ -14,9 +19,69 @@ targetEntityType: node
 bundle: page
 mode: default
 content:
+  field_base_block_:
+    type: entity_reference_paragraphs
+    weight: 27
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  field_content:
+    type: entity_reference_paragraphs
+    weight: 28
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
   field_events_banner:
     type: entity_reference_paragraphs
     weight: 26
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  field_images_:
+    type: entity_reference_paragraphs
+    weight: 29
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  field_media_image_:
+    type: entity_reference_paragraphs
+    weight: 30
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  field_video_banner_:
+    type: entity_reference_paragraphs
+    weight: 31
     settings:
       title: Paragraph
       title_plural: Paragraphs

@@ -1,0 +1,55 @@
+uuid: 9d878d93-97cb-4143-933b-c65bb743ba2c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_all_paragraphs
+    - paragraphs.paragraphs_type.base_block
+    - paragraphs.paragraphs_type.content
+    - paragraphs.paragraphs_type.events_banner_
+    - paragraphs.paragraphs_type.images
+    - paragraphs.paragraphs_type.media_image
+    - paragraphs.paragraphs_type.video_banner
+  module:
+    - entity_reference_revisions
+id: paragraph.events_banner_.field_all_paragraphs
+field_name: field_all_paragraphs
+entity_type: paragraph
+bundle: events_banner_
+label: 'All paragraphs'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      base_block: base_block
+      content: content
+      events_banner_: events_banner_
+      images: images
+      media_image: media_image
+      video_banner: video_banner
+    target_bundles_drag_drop:
+      base_block:
+        enabled: true
+        weight: 7
+      content:
+        enabled: true
+        weight: 8
+      events_banner_:
+        enabled: true
+        weight: 9
+      images:
+        enabled: true
+        weight: 10
+      media_image:
+        enabled: true
+        weight: 11
+      video_banner:
+        enabled: true
+        weight: 12
+field_type: entity_reference_revisions

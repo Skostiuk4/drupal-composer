@@ -1,0 +1,46 @@
+uuid: 59351ee2-1ef5-4950-b2f6-e1f2ba75318d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_base_block_
+    - node.type.page
+    - paragraphs.paragraphs_type.base_block
+  module:
+    - entity_reference_revisions
+id: node.page.field_base_block_
+field_name: field_base_block_
+entity_type: node
+bundle: page
+label: "Base block\t"
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      base_block: base_block
+    target_bundles_drag_drop:
+      base_block:
+        enabled: true
+        weight: 7
+      content:
+        weight: 8
+        enabled: false
+      events_banner_:
+        weight: 9
+        enabled: false
+      images:
+        weight: 10
+        enabled: false
+      media_image:
+        weight: 11
+        enabled: false
+      video_banner:
+        weight: 12
+        enabled: false
+field_type: entity_reference_revisions

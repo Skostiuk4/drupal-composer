@@ -3,39 +3,25 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.events_banner_.field_button
-    - field.field.paragraph.events_banner_.field_descriptions
-    - field.field.paragraph.events_banner_.field_image1
+    - field.field.paragraph.events_banner_.field_all_paragraphs
     - paragraphs.paragraphs_type.events_banner_
   module:
-    - link
-    - media_library
+    - paragraphs
 id: paragraph.events_banner_.default
 targetEntityType: paragraph
 bundle: events_banner_
 mode: default
 content:
-  field_button:
+  field_all_paragraphs:
+    type: entity_reference_paragraphs
     weight: 2
     settings:
-      placeholder_url: ''
-      placeholder_title: ''
-    third_party_settings: {  }
-    type: link_default
-    region: content
-  field_descriptions:
-    weight: 0
-    settings:
-      rows: 5
-      placeholder: ''
-    third_party_settings: {  }
-    type: string_textarea
-    region: content
-  field_image1:
-    type: media_library_widget
-    weight: 1
-    settings:
-      media_types: {  }
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
     third_party_settings: {  }
     region: content
 hidden:
