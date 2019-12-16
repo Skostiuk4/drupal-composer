@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.page.field_base_block
+    - field.field.node.page.field_events_banner
     - node.type.page
   module:
     - entity_reference_revisions
@@ -15,7 +15,7 @@ targetEntityType: node
 bundle: page
 mode: default
 content:
-  field_base_block:
+  field_events_banner:
     type: entity_reference_revisions_entity_view
     weight: 1
     label: above

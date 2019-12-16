@@ -1,13 +1,13 @@
-uuid: a7954e5d-bbb9-4483-9153-a7c5486d8f81
+uuid: a76701bb-55d0-4654-a9c4-13835bfba121
 langcode: en
 status: true
 dependencies:
   theme:
-    - unique_test
+    - bootstrap
 _core:
   default_config_hash: 1TQP4b3ZnlzvIH9bj6cpCz_SyUHdJjLQkZnHpikjjhw
-id: unique_test_page_title
-theme: unique_test
+id: bootstrap_page_title
+theme: bootstrap
 region: header
 weight: 0
 provider: null

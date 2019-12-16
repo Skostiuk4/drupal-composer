@@ -72,7 +72,7 @@
  * @ingroup themeable
  */
 #}
-
+<div class="text">Connecting the Dots wish<br> Nuclaus Code Scaner</div>
 <article{{ attributes }}>
 
   {{ title_prefix }}
@@ -95,13 +95,13 @@
   {% endif %}
 </article>
 
+
 <div{{ content_attributes }}>
-  <div class="rights">{{ content.field_images }}</div>
-  <div class="lefts">{{ content | without('field_images') }}</div>
+  <div class="images">{{ content.field_image1 }}</div>
+  <div class="text">{{ content | without('field_image1') }}</div>
 </div>
 
-
-
+<div class="dws"><a href="#" class="butt">GET NUCLAUS</a></div>
 
 
 

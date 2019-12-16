@@ -1,0 +1,45 @@
+uuid: be4fb0c5-cffb-419e-bf6c-ec1baaca16fc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.events_banner_.field_button
+    - field.field.paragraph.events_banner_.field_descriptions
+    - field.field.paragraph.events_banner_.field_image1
+    - paragraphs.paragraphs_type.events_banner_
+  module:
+    - link
+id: paragraph.events_banner_.default
+targetEntityType: paragraph
+bundle: events_banner_
+mode: default
+content:
+  field_button:
+    weight: 2
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_descriptions:
+    weight: 0
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_image1:
+    type: entity_reference_entity_view
+    weight: 1
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+hidden: {  }

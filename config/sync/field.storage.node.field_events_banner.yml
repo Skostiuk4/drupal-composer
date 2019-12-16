@@ -1,4 +1,4 @@
-uuid: 86012a71-379c-4a4f-9472-959f62a8991d
+uuid: 9f829435-6823-4cb5-95a3-87862649fa7e
 langcode: en
 status: true
 dependencies:
@@ -6,8 +6,8 @@ dependencies:
     - entity_reference_revisions
     - node
     - paragraphs
-id: node.field_base_block
-field_name: field_base_block
+id: node.field_events_banner
+field_name: field_events_banner
 entity_type: node
 type: entity_reference_revisions
 settings:

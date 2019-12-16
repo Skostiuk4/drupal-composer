@@ -1,16 +1,16 @@
-uuid: 7bb8a5f0-e791-485d-9fb2-61f800e9e11a
+uuid: eecff4c7-0b75-4058-8a27-8af799373631
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - unique_test
+    - bootstrap
 _core:
   default_config_hash: Cy3vkpYrD1O5JG-BeEnokF0bByHYDEa8CBfWivB4_SQ
-id: unique_test_branding
-theme: unique_test
-region: sidebar_first
+id: bootstrap_branding
+theme: bootstrap
+region: navigation
 weight: 0
 provider: null
 plugin: system_branding_block

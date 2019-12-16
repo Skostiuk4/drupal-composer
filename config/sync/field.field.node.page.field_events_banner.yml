@@ -1,19 +1,18 @@
-uuid: a4bbf25e-ab8e-4f4b-9a26-bc5c1aeb0644
+uuid: 2013f7c9-872e-45c9-8a32-b3f8a6eb5e9a
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_base_block
+    - field.storage.node.field_events_banner
     - node.type.page
-    - paragraphs.paragraphs_type.base_block
-    - paragraphs.paragraphs_type.media_image
+    - paragraphs.paragraphs_type.events_banner_
   module:
     - entity_reference_revisions
-id: node.page.field_base_block
-field_name: field_base_block
+id: node.page.field_events_banner
+field_name: field_events_banner
 entity_type: node
 bundle: page
-label: 'Base block'
+label: 'Events banner'
 description: ''
 required: false
 translatable: false
@@ -24,22 +23,24 @@ settings:
   handler_settings:
     negate: 0
     target_bundles:
-      base_block: base_block
-      media_image: media_image
+      events_banner_: events_banner_
     target_bundles_drag_drop:
       base_block:
-        enabled: true
-        weight: 6
-      content:
         weight: 7
         enabled: false
-      images:
+      content:
         weight: 8
         enabled: false
-      media_image:
+      events_banner_:
         enabled: true
         weight: 9
-      video_banner:
+      images:
         weight: 10
+        enabled: false
+      media_image:
+        weight: 11
+        enabled: false
+      video_banner:
+        weight: 12
         enabled: false
 field_type: entity_reference_revisions

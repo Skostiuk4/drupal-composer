@@ -1,15 +1,15 @@
-uuid: 630e3f63-464b-4b0d-ac34-dd6ff54e9f86
+uuid: f0537f62-7cef-4f65-995b-9d0a1878d056
 langcode: en
 status: true
 dependencies:
   module:
     - search
   theme:
-    - unique_test
+    - bootstrap
 _core:
   default_config_hash: F3d5hyAFunLh4PhGviJF019fHn1Z3_zy5gzsQ0tX1K0
-id: unique_test_search
-theme: unique_test
+id: bootstrap_search
+theme: bootstrap
 region: sidebar_second
 weight: -1
 provider: null
